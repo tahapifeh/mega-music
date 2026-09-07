@@ -1,0 +1,15 @@
+workflows:
+  android-workflow:
+    name: Build Mega Music APK
+    max_build_duration: 30
+
+    environment:
+      java: 17
+
+    scripts:
+      - name: Build APK
+        script: |
+          gradle assembleDebug
+
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
