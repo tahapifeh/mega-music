@@ -1,0 +1,6 @@
+{
+  "name": "Vibe Music",
+  "description": "Modern, lightweight, fast, and offline music player with custom gallery backgrounds, playlists, and favorites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
